@@ -69,7 +69,7 @@ wire [8:0] C ;
 assign C[0] = cin;
 genvar i;
 generate 
-for (i = 0; i < 8; i = i+1) begin  
+    for (i = 0; i < 8; i = i+1) begin : generationblock
 adder1b fda(.a(in1[i]),.b(in2[i]),.cin(C[i]),.y(out[i]),.g(G[i]),.p(P[i]),.cout());
 assign C[i+1] = (C[i] & P[i]) | G[i];
 end
