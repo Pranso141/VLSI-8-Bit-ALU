@@ -34,7 +34,7 @@ input [7:0] in1,in2,
 output reg [7:0] out,
 output reg [4:0] flags
 );
-wire [7:0] invertedin1;
+    wire [7:0] invertedin2;
 wire tocheckcout,iffinalcout;
 wire [7:0] middleout, finalout,toholdout;
 wire [7:0] invertedcarryoutput;
