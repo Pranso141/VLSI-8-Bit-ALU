@@ -53,6 +53,7 @@ You can simulate this project using any standard Verilog simulator.
 
 - Subtraction is implemented using **2's complement addition** (`in1 + (~in2) + 1`)
 - Flag outputs (Zero, Negative, Overflow, Carry) are planned for the top-level ALU
+- Must Specify the direction of the shift (1 for right shift and 0 for left shift)
 
 ---
 
@@ -62,4 +63,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Limitations 🏮
 - Currently can only work on unsigned numbers, will work on improving the project to work with signed numbers (in an unforseeable future).
-- Must Specify the direction of the shift (1 for right shift and 0 for left shift)
