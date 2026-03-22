@@ -57,9 +57,5 @@ You can simulate this project using any standard Verilog simulator.
 
 ---
 
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Limitations 🏮
 - Currently can only work on unsigned numbers, will work on improving the project to work with signed numbers (in an unforseeable future).
