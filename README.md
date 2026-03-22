@@ -1,4 +1,4 @@
-# 🔧 VLSI 8-Bit ALU — Verilog
+# 🔧 VLSI 8-Bit ALU Verilog (Finished Project)
 
 A fully functional **8-bit Arithmetic Logic Unit** implemented in Verilog, built as a hands-on exercise to practice core digital design and HDL concepts.
 
