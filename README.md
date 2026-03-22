@@ -29,10 +29,9 @@ This project implements an 8-bit ALU capable of performing arithmetic, bitwise, 
 ### 🔀 Shift & Rotate
 | Opcode | Operation               |
 |--------|-------------------------|
-| `1010` | Arithmetic Shift        |
-| `1011` | Logical Shift           |
-| `1100` | Rotate                  |
-| `1101` | Rotate Through Carry    |
+| `1010` | Logical Shift           |
+| `1011` | Rotate                  |
+| `1100` | Rotate Through Carry    |
 
 ---
 
@@ -63,3 +62,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Limitations 🏮
 - Currently can only work on unsigned numbers, will work on improving the project to work with signed numbers (in an unforseeable future).
+- Must Specify the direction of the shift (1 for right shift and 0 for left shift)
